@@ -1,0 +1,27 @@
+# Android/Gradle
+*.iml
+.gradle/
+local.properties
+.idea/
+app/build/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Model files (too large for git)
+models/
+
+# Python venv (model download tooling)
+env/
+
+# Kotlin compiler logs
+.kotlin/
+
+# Claude Code
+.claude/
+CLAUDE.md
+
+# OS
+.DS_Store
+Thumbs.db
