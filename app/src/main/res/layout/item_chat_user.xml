@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="end"
+    android:paddingHorizontal="12dp"
+    android:paddingVertical="4dp">
+
+    <!-- 用户附带的图片 -->
+    <ImageView
+        android:id="@+id/ivChatImage"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginBottom="4dp"
+        android:scaleType="centerCrop"
+        android:visibility="gone"
+        android:background="@drawable/bg_bubble_user"
+        android:clipToOutline="true" />
+
+    <!-- 用户文字气泡 -->
+    <TextView
+        android:id="@+id/tvMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="280dp"
+        android:background="@drawable/bg_bubble_user"
+        android:padding="12dp"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp" />
+
+</LinearLayout>

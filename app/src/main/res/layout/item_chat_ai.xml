@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="start"
+    android:paddingHorizontal="12dp"
+    android:paddingVertical="4dp">
+
+    <!-- AI 回复气泡 -->
+    <TextView
+        android:id="@+id/tvMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="300dp"
+        android:background="@drawable/bg_bubble_ai"
+        android:padding="12dp"
+        android:textColor="#EEEEEE"
+        android:textSize="15sp"
+        android:textIsSelectable="true" />
+
+</LinearLayout>
